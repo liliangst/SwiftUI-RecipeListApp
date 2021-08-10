@@ -2,7 +2,7 @@
 //  Recipe.swift
 //  Recipe List App
 //
-//  Created by Christopher Ching on 2021-01-14.
+//  Created by Lilian Grasset on 2021-08-07.
 //
 
 import Foundation
@@ -18,7 +18,17 @@ class Recipe: Identifiable, Decodable {
     var cookTime:String
     var totalTime:String
     var servings:Int
-    var ingredients:[String]
+    var highlights:[String]
+    var ingredients:[Ingredient]
     var directions:[String]
     
+}
+
+class Ingredient: Identifiable, Decodable {
+    
+    var id:UUID?
+    var name:String
+    var num:Int?
+    var denom:Int?
+    var unit:String?
 }

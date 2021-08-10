@@ -2,7 +2,7 @@
 //  RecipeModel.swift
 //  Recipe List App
 //
-//  Created by Christopher Ching on 2021-01-14.
+// Created by Lilian Grasset on 2021-08-07.
 //
 
 import Foundation
@@ -15,7 +15,6 @@ class RecipeModel: ObservableObject {
         
         // Create an instance of data service and get the data
         self.recipes = DataService.getLocalData()
-        
         
     }
 }

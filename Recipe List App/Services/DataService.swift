@@ -2,7 +2,7 @@
 //  DataService.swift
 //  Recipe List App
 //
-//  Created by Christopher Ching on 2021-01-14.
+// Created by Lilian Grasset on 2021-08-07.
 //
 
 import Foundation
@@ -38,6 +38,11 @@ class DataService {
                 // Add the unique IDs
                 for r in recipeData {
                     r.id = UUID()
+                    
+                    // Add unique IDs to recipe ingredients
+                    for i in r.ingredients {
+                        i.id = UUID()
+                    }
                 }
                 
                 // Return the recipes

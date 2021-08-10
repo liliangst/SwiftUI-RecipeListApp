@@ -2,7 +2,7 @@
 //  Recipe_List_App.swift
 //  Recipe List App
 //
-//  Created by Christopher Ching on 2021-01-14.
+// Created by Lilian Grasset on 2021-08-07.
 //
 
 import SwiftUI

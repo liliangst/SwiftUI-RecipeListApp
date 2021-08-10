@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		386E9E4326C3154500AE57FE /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E9E4226C3154400AE57FE /* RecipeTabView.swift */; };
 		831EE68025B0C74D00BACCDD /* Recipe_List_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EE67F25B0C74D00BACCDD /* Recipe_List_App.swift */; };
 		831EE68225B0C74D00BACCDD /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EE68125B0C74D00BACCDD /* RecipeListView.swift */; };
 		831EE68425B0C74E00BACCDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831EE68325B0C74E00BACCDD /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		386E9E4226C3154400AE57FE /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		831EE67C25B0C74D00BACCDD /* Recipe List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		831EE67F25B0C74D00BACCDD /* Recipe_List_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_List_App.swift; sourceTree = "<group>"; };
 		831EE68125B0C74D00BACCDD /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
@@ -63,11 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				831EE67F25B0C74D00BACCDD /* Recipe_List_App.swift */,
-				831EE69025B0C76D00BACCDD /* Views */,
-				831EE69125B0C77200BACCDD /* ViewModels */,
-				831EE69225B0C77800BACCDD /* Models */,
-				831EE69425B0C78000BACCDD /* Services */,
 				831EE69325B0C77C00BACCDD /* Data */,
+				831EE69225B0C77800BACCDD /* Models */,
+				831EE69125B0C77200BACCDD /* ViewModels */,
+				831EE69025B0C76D00BACCDD /* Views */,
+				831EE69425B0C78000BACCDD /* Services */,
 				831EE68325B0C74E00BACCDD /* Assets.xcassets */,
 				831EE68825B0C74E00BACCDD /* Info.plist */,
 				831EE68525B0C74E00BACCDD /* Preview Content */,
@@ -88,6 +90,7 @@
 			children = (
 				831EE68125B0C74D00BACCDD /* RecipeListView.swift */,
 				831EE6C525B0E0A200BACCDD /* RecipeDetailView.swift */,
+				386E9E4226C3154400AE57FE /* RecipeTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				831EE68225B0C74D00BACCDD /* RecipeListView.swift in Sources */,
 				831EE68025B0C74D00BACCDD /* Recipe_List_App.swift in Sources */,
 				831EE6A725B0CAD000BACCDD /* DataService.swift in Sources */,
+				386E9E4326C3154500AE57FE /* RecipeTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
